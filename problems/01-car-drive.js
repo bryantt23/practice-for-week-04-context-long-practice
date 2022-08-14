@@ -1,6 +1,8 @@
 // Your code here
 class Car {
-  constructor() {}
+  constructor() {
+    this.speed = 0;
+  }
   drive(speed) {
     this.speed = speed;
     return speed;
